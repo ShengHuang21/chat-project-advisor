@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "chat-project-advisor",
+  "version": "0.6.1",
+  "description": "Neutral advice for assessing task plans, bounded source material, verification, evidence reuse, and handoffs.",
+  "author": {
+    "name": "Sheng"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Chat 项目顾问",
+        "shortDescription": "项目计划与证据顾问",
+        "longDescription": "Assess task plans, bounded versioned source material, coordination, verification, evidence reuse, and handoffs with proportionate, evidence-aware advice.",
+        "developerName": "Sheng",
+        "category": "Productivity",
+        "defaultPrompt": "请评估这个项目计划是否足以达成 Done，并指出最小必要的验证和证据。"
+      }
+    }
+  }
+}
